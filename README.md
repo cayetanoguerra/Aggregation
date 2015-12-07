@@ -3,11 +3,11 @@ Práctica de Arquitecturas de Sistemas Web del Máster de Informática de la ULP
 
 Estudiaremos en esta práctica el concepto de “agregación”. 
 
-https://docs.mongodb.org/manual/core/aggregation-introduction/
+<https://docs.mongodb.org/manual/core/aggregation-introduction/>
 
-https://docs.mongodb.org/manual/tutorial/aggregation-zip-code-data-set/
+<https://docs.mongodb.org/manual/tutorial/aggregation-zip-code-data-set/>
 
-https://docs.mongodb.org/manual/tutorial/aggregation-with-user-preference-data/
+<https://docs.mongodb.org/manual/tutorial/aggregation-with-user-preference-data/>
 
 Arrancamos nuestro servidor MongoDB.
 
@@ -61,3 +61,5 @@ $ mongo mydb aggregation_prac1.js
 2. En base a la longitud del promedio anterior, crear dos colecciones es estados, una para los estados del este y otra para los estados del oeste.
 
 3. Generar una colección de ciudades ordenada por proximidad a la ciudad de Nueva York.
+
+![Mapa EEUU](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Map_of_USA_with_state_names_es.svg/800px-Map_of_USA_with_state_names_es.svg.png)
