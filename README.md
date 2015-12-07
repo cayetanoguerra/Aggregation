@@ -45,7 +45,7 @@ Antes de empezar viendo ejemplos vamos a crear una colección llamada zips y a l
 Para ello, importamos el fichero zips.json (que es un fichero con documentos del tipo anterior) en la colección “zips”.
 
 ```
-mongoimport --host 127.0.0.1 -d mydb -c zips --type json --file zips.json
+$ mongoimport --host 127.0.0.1 -d mydb -c zips --type json --file zips.json
 ```
 
 En nuestro editor favorito abriremos los ficheros desde aggregation_prac1.js hasta aggregation_prac5.js. Los ejecutaremos y veremos los resultados que nos dan.
