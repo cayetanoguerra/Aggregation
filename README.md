@@ -58,7 +58,7 @@ $ mongo mydb aggregation_prac1.js
 
 1. Calcular el promedio de todas las localizaciones excluyendo poblaciones de Hawaii (HI) y Alaska (AK).
 
-2. En base a la longitud del promedio anterior, crear dos colecciones es estados, una para los estados del este y otra para los estados del oeste.
+2. En base a la longitud del promedio anterior, crear dos colecciones de estados, una para los estados del este y otra para los estados del oeste.
 
 3. Generar una colección de ciudades ordenada por proximidad a la ciudad de Nueva York.
 
