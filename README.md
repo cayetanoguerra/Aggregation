@@ -56,10 +56,12 @@ $ mongo mydb aggregation_prac1.js
 
 ###Tareas prácticas
 
-1. Calcular el promedio de todas las localizaciones excluyendo poblaciones de Hawaii (HI) y Alaska (AK).
+1. Calcular cuántos estados hay y cuántas ciudades.
 
-2. En base a la longitud del promedio anterior, crear dos colecciones de estados, una para los estados del este y otra para los estados del oeste.
+2. Calcular cuál es el estado con mayor número de habitantes.
 
-3. Generar una colección de ciudades ordenada por proximidad a la ciudad de Nueva York.
+3. Calcular el promedio de ciudades de cada estado.
+
+4. Generar una colección de ciudades ordenada por proximidad a la ciudad de Nueva York.
 
 ![Mapa EEUU](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Map_of_USA_with_state_names_es.svg/800px-Map_of_USA_with_state_names_es.svg.png)

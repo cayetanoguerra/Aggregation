@@ -8,7 +8,7 @@ db.runCommand({
 	aggregate: "zips",
 	pipeline: [
 		{ $group: { _id: { state: "$state", city: "$city" }, pop: { $sum: "$pop" } } },
-		//{ $group: { _id: "$_id.state", avgCityPop: { $avg: "$pop" } } },
+		{ $group: { _id: "$_id.state", avgCityPop: { $avg: "$pop" } } },
 		{ $out: "salida" } 
 		]
 });
